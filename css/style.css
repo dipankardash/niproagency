@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+/*common code start*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+}
+.com_padding{
+	padding-top: 70px;
+}
+/*common code end*/
+/*header start*/
+header{
+	margin-top: -16px;
+	padding-bottom: 20px;
+	background-color: #ffffff;	
+}
+.fixed_top{
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	margin-top: 50px;
+	padding: 0 16px !important;
+	font-size: 16px;
+	font-weight: 700;
+	color: #000000 !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: red !important;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	background-image: url(../images/nipro_agency.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.s_item{
+	margin: 150px 0 150px;
+}
+.s_h1, .ser_h1, .about_h1, .s_p{
+	color: #000000;
+}
+.crtl{
+	margin-right: 2px;
+}
+.btnp{
+	padding-bottom: 50px;
+}
+.pn{
+	margin: 0 10px;
+	background-color: transparent;
+	border: red solid 1.25px;
+    border-radius: 50%;
+}
+.pipe{
+	color: red;
+}
+/*service start*/
+.c_pipe{
+	width: 2px;
+    height: 50px;
+    background-color: #0000008f;
+}
+.ser_item{
+	margin-top: 90px;
+	padding: 55px 15px 35px;
+	border: 2px solid #8e8e8e;
+}
+.ser_icon{
+	margin: -77px auto 0;
+	width: 70px;
+	height: 60px;
+	background-color: #ffffff;
+}
+.ser_icon i{
+	font-size: 60px;
+	color: #8e8e8e;
+}
+a{
+	color: #8e8e8e;
+	text-decoration: none;
+}
+.ser_h2{
+	margin: 15px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.ser_line{
+	width: 60px;
+    height: 2px;
+    background-color: #00000029;
+}
+.ser_p{
+	margin-top: 20px;
+}
+.ser_item:hover {
+	border: 2px solid #333333;
+}
+.ser_item:hover .ser_icon i{
+	color: #333333;
+}
+.ser_item:hover .ser_a{
+	color: #333333;
+}
+.about_img img{
+	margin-top: 0px;
+}
+.about_p1{
+	padding-top: 0px;
+}
+.about_p2{
+	padding: 5px 0;
+}
+/*option start*/
+.option i{
+	font-size: 48px;
+}
+.option_line{
+	margin-bottom: 25px;
+	width: 100%;
+    height: 1px;
+    background-color: #8e8e8e;
+}
+/*member description start*/
+.member_description{
+	padding-bottom: 100px;
+	background-image: url(../images/nipro-agency.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.s_team{
+	margin-top: 100px;
+	position: relative;
+	background-color: white;
+	border: 1px solid #8e8e8e;
+	border-radius: 2px;
+}
+
+.person_img img{}
+.person_description{
+	padding: 16px 0 16px 30px;
+}
+.person_h2{
+	margin-bottom: 15px;
+	font-family: lato-bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.person_h3{
+	font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+.person_img{
+	transition: .33s ease;
+	cursor: pointer;
+}
+.person_social{
+	width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    opacity: 0;
+    transition: .33s;
+}
+.person_img:hover .person_social {
+	opacity: 1;
+}
+.person-social ul li{
+	background: transparent;
+    border-right: 1px solid transparent;
+    transition: .3s ease;
+}
+.person_social ul li:hover{
+	background: #8e8e8e69;
+	border-right: 1px solid #333333;
+}
+.person_social ul li a{}
+.person_social ul li a i{
+	padding: 8px 6px;
+    font-size: 24px;
+    color: #8e8e8e;
+    transition: .3s ease;
+}
+.person_social ul li a i:hover{
+	color: #333333;
+}
+/*best price start*/
+.bp_heading{
+	position: relative;
+	margin-top: 100px;
+	padding: 0 30px 40px;
+    border: 2px solid #8e8e8e;
+    transition: .33s;
+}
+.bp_heading:hover{
+	border-color: #333333;
+}
+.bp_h3{
+    padding: 0px 8px;
+	position: absolute;
+    top: -16px;
+    left: 12px;
+    font-family: lato-bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.bp_h2{
+	margin-top: 40px;
+	font-family: lato-bold;
+    font-size: 34px;
+    font-weight: 700;
+    color: #333333;
+}
+.bp_h2 span{
+	font-family: roboto-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.bp_merits{
+	margin: 36px 0;
+}
+.bp_merits p{
+	margin-bottom: 22px;
+}
+.bp_merits p:last-child{
+	margin-bottom: 0;
+}
+.bp_merits p span{
+	margin-right: 4px;
+}
+/*extra start*/
+.extra{
+	padding-bottom: 70px;
+	background-color: #f8f8f8;
+}
+.extra_h1{
+	font-size: 32px;
+}
+.extra_btn{
+	text-align: right;
+}
+.best_price{
+	padding-bottom: 70px;
+}
+/*founder start*/
+.carou_border{
+	border: 1px solid #8e8e8e;
+	border-radius: 4px;
+}
+.founder{}
+.content {
+    padding: 40px 30px;
+}
+.f_img{
+	position: relative;
+}
+.f_img img{
+	border-radius: 2px;
+}
+.f_icon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.f_icon i{
+	font-size: 40px;
+    color: #333333;
+}
+
+.f_h2{
+	font-family: lato-bold;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.f_h3{
+	margin: 18px 0;
+	font-size: 18px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+.f_h4{
+	font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+.f_p1{
+	margin-top: 36px;
+    color: #8e8e8e;
+	line-height: 26px;
+}
+.f_p2{
+    color: #8e8e8e;
+	line-height: 26px;
+}
+
+.pipe_box{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pipe{
+	width: 12px;
+    height: 2px;
+    background-color: #8e8e8e;
+}
+.pipe2{
+    margin: 6px 0;
+    width: 18px;
+	background-color: #333333;
+}
+.f_btn1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	background: #f7f3f3;
+    align-items: center;
+	border-radius: 4px;
+}
+.f_sbtn{
+    padding: 10px;
+	font-family: roboto-medium;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8e8e8e;
+    background: transparent;
+    writing-mode: vertical-rl;
+    transform: rotate(90deg);
+    border: 1px solid transparent;
+    transition: .3s ease;
+}
+.f_sbtn:hover{
+	color: #333333;
+}
+.f_sbtn:active{
+	color: black;
+}
+/*founder end*/
+
+/*contact start*/
+.contact{}
+.contact_box{
+	border: 1px solid #8e8e8e;
+}
+.contact_form{
+	position: relative;
+    margin-top: 90px;
+}
+.contact_form input{
+	padding: 10px 15px;
+	font-family: roboto-regular;
+	font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+    border: 0;
+    border-bottom: 1px solid #8e8e8e;
+}
+.contact_form input:focus{
+	outline: 0;
+	border-bottom: 2px solid #333333;
+}
+.contact_h1{
+	padding: 0 10px;
+    position: absolute;
+    top: -110px;
+    left: 50%;
+    transform: translateX(-50%);
+	font-family: lato-regular;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+    background-color: #ffffff;
+    text-transform: uppercase;
+}
+.input_part01{
+	margin-bottom: 20px;
+}
+.input_part01 input{
+	width: 46%;
+}
+.input_part01 input:first-child{
+	margin-right: 40px;
+}
+.input_part02 {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.input_part03 {
+    padding: 60px 15px !important;
+    width: 100%;
+}
+.form_btn{
+    margin: 45px 0;
+	text-align: center;
+}
+/*contact end*/
+.footer{
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.footer_p{
+	color: white;
+}
+.footer a{
+	color: white;
+}
+.footer_icon ul li a{
+	padding: 10px;
+	font-size: 42px;
+	color: white;	
+}
+.footer_icon ul li a:hover{
+	color: red;
+	transition: 0.33s;
+}
+.footer_line{
+	width: 100%;
+	height: 1px;
+	background-color: #ffffff;
+}
+.footer_link{
+	text-align: right;
+}
+.footer_link ul li a{
+	padding: 15px;
+}
